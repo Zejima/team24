@@ -1,0 +1,314 @@
+html {
+    scroll-behavior: smooth;
+}
+.splash {
+    height: 100%;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("background.png");
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+  display: flex;
+  align-items: center;
+  padding-left:30px;
+  max-width: 1000px;;
+}
+
+.menu-item {
+    float: left;
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+}
+
+.c {
+    border: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.cen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: auto;
+    padding: 90px;
+}
+
+
+
+section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.team {
+    background-color: white;
+}
+
+.specs {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+
+    background-color: #00a2dc;
+    font-size: 2vw;
+}
+
+.btns {
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+}
+
+.banner1 {
+    font-size: 4vw;
+    width: 100%;
+    background-color: #80bfff;
+}
+
+
+
+.contain {
+    margin: 0% 0 0 0;
+
+    padding: 0;
+    width: 100%;
+}
+.row {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+span {
+    width: 50%;
+}
+.project-img {
+    width: 50%;
+}
+.project-ps {
+    display: flex;
+    align-items: top;
+    width: 100%;
+    background-color: 49b9e2;
+    height: 40%;
+}
+.project-s {
+    display: flex;
+    align-items: top;
+    width: 100%;
+    background-color: #6dd0f3;
+    height: 40%;
+}
+
+.project-text {
+    padding: 0;
+    text-align: center;
+    font-size: 2.5vw;
+    color: white;
+}
+
+@media (max-width: 630px) {
+    .benefits {
+        display: block;
+        align-items: none;
+    }
+    .benefits-text {
+        padding: 0;
+        display: block;
+    }
+}
+
+.report {
+    text-align: center;
+    background-color: #658fc6;
+    color: white;
+}
+
+.spcs {
+    background-color: #00a2dc;
+}
+
+.card-deck{
+	padding:5rem;
+}
+
+
+.cards-2 .card{
+	display:block;
+	max-width:330px;
+	margin-right:auto;
+	margin-bottom: 6rem;
+	margin-left: auto;
+	border: 1px solid #c4d8dc;
+	border-radius:8px;
+	
+}
+.cards-2 .card .card-title {
+    margin-bottom: 0.5rem;
+    color: #32373e;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    text-align: center;
+}
+.cards-2 .card {
+    display: inline-block;
+    max-width: 100%;
+    width: 302px;
+    vertical-align: top;
+}
+.cards-2{
+	text-align:center;
+}
+.cards-2 .card .card-body {
+    padding: 2.5rem 1.75rem 2.25rem 1.75rem;
+}
+
+.cards-2 .card .cell-divide-hr {
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+    background-color: #ccd3df;
+}
+.cards-2 .card .list-unstyled {
+    margin-top: 1.875rem;
+    margin-bottom: 1.625rem;
+    text-align: left;
+}
+.cards-2 .card .price {
+    margin-top: 1.625rem;
+}
+
+.cards-2 .card .button-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    text-align: center;
+}
+
+.btn-solid-reg {
+    display: inline-block;
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid #00bfd8;
+    border-radius: 32px;
+    background-color: #00bfd8;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+	transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+}
+
+.cards-2 .card .value {
+    color: #00bfd8;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.cards-2 .card .list-unstyled .fas {
+    color: #00bfd8;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+}
+
+.cards-2 .card .currency {
+    margin-right: 0.25rem;
+    color: #00bfd8;
+    font-size: 1.5rem;
+    vertical-align: 40%;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.team2 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.team2 h1,
+.team2 h2,
+.team2 h3,
+.team2 h4,
+.team2 h5,
+.team2 h6 {
+  color: #3e4555;
+}
+
+.team2 h5 {
+	line-height: 22px;
+  font-size: 18px;
+}
+
+.team2 .font-weight-medium {
+  font-weight: 500;
+}
+
+.team2 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+	font-size: 13px;
+}
+
+.team2 .pro-pic {
+  min-height: 100vh;
+  min-width: 100vh;
+  
+}
+
+.pro-pic{
+	background-image:url(Chidinma.png);
+	background-size: cover;
+}
+
+.team2 .pro-pic .card-img-overlay {
+  background: rgba(26, 139, 243, 0.87);
+  display: none;
+}
+
+.team2 .pro-pic .card-img-overlay ul {
+  top: 50%;
+}
+
+.team2 .pro-pic .card-img-overlay ul li a {
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team2 .pro-pic .card-img-overlay ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+}
+
+.team2 .pro-pic:hover .card-img-overlay {
+  display: block;
+}

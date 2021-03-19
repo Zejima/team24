@@ -1,0 +1,200 @@
+<html>
+<head>
+    <title>Captcha-Shield</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+</head> 
+
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container-fluid">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html" target="_blank">
+        <strong>Captcha</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="team.html" target = "1">Team
+              <!---<span class="sr-only">(current)</span>--->
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="diagram.html" target="2">Mechanism</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="specs.html" target="3">Specifications</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="docs.html" target="4">Documents</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://github.com/RushivArora/SDP21" class="nav-link border border-light rounded"
+              target="_blank">
+              <i class="fab fa-github mr-2"></i>MDB GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  
+<div id="home">
+  <div class = "splash">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Captcha Shield</h1>
+        <p class="lead mb-0">University of Massachusetts Amhert</p>
+        <p class="lead mb-0">Senior Design Project '21</p>
+        <p class="lead mb-0">Team 24</p>
+      </div>
+    </div>
+  </div>
+  </div>
+    <div class="col-lg-6 mb-3 mb-lg-0" style = "max-width:100%">
+        <div class="hover hover-3 text-white rounded"><img src="maskp.webp" alt="">
+          <div class="hover-overlay"></div>
+          <div class="hover-3-content px-5 py-4">
+            <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Problem </span>Statement</h3>
+            <p class="hover-3-description small text-uppercase mb-0">With the onset of the Covid-19 pandemic, the world was forced to wear face masks in public, highlighting an issue faced by professionals who wear masks for their jobs: muffled voices and incomprehensible speech, especially for those with hearing impairments.</p>
+          </div>
+        </div>
+      </div>
+      <!-- DEMO 3 Item    -->
+      <div class="col-lg-6" style = "max-width:100%">
+        <div class="hover hover-3 text-white rounded"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570786268/hoverSet-6_hkumk8.jpg" alt="">
+          <div class="hover-overlay"></div>
+          <div class="hover-3-content px-5 py-4">
+            <h3 class="hover-3-title text-uppercase font-weight-bold mb-1"><span class="font-weight-light">Our </span>Solution</h3>
+            <p class="hover-3-description small text-uppercase mb-0">Captcha-Shield will be a lightweight speech-to-text system that sits on custom face shields and prints audio-to-text on screens to better help people, especially those with hearing impairments, understand their mask wearing counterpart <p>
+          </div>
+        </div>
+      </div>
+
+
+<style>
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+.hover-3::after {
+  content: '';
+  width: calc(100% - 3rem);
+  height: calc(100% - 3rem);
+  border: 1px solid #fff;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 90;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  opacity: 0;
+  display: block;
+  opacity: 0;
+}
+
+.hover-3-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 99;
+}
+
+.hover-3-description {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+.hover-3 img {
+  width: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-3 .hover-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-3:hover img {
+  width: 100%;
+}
+
+.hover-3:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-3-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+</style>
+
+  
+</body>
+</html>
